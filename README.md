@@ -2,21 +2,18 @@
 
 # TestaCache
 
-In this version added .NET Core / Standard Support, still under development
+In this version added .NET Core / Standard Support
 
 #### .NET Component to implement cache in your application Cache using MemoryCache or Redis in C#
 
-<img src="https://wiprojects.visualstudio.com/_apis/public/build/definitions/8ee69205-3d59-40e7-8207-9cc6a8fa8785/6/badge"/>
+[![Build Status](https://img.shields.io/appveyor/ci/thiagoloureiro/testacache-netcore/master.svg)](https://ci.appveyor.com/project/thiagoloureiro/testacache-netcore) 
 
-[![NuGet](https://buildstats.info/nuget/TestaCache)](http://www.nuget.org/packages/TestaCache)
-
-This package use PostSharp Essentials, so it's limited to use up to 10 Classes with the attributes.
-We are planning to use another AOP in the next version.
+[![NuGet](https://buildstats.info/nuget/TestaCache.NetCore)](http://www.nuget.org/packages/TestaCache.NetCore)
 
 ## How to Use:
 Open Package Manager Console and run:
 
-```Install-Package TestaCache```
+```Install-Package TestaCache.NetCore```
 
 ## .NET Framework Support
 - .NET Core/Standard 2.0
